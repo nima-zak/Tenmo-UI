@@ -8,7 +8,12 @@ function Exit() {
 
   return (
     <div>
-      <Button variant="contained" onClick={handleExit}>
+      <Button variant="contained" onClick={() => {
+              if (localStorage.getItem("token")) {
+                localStorage.removeItem("token");
+              }
+              window.location.href = "/";
+            }}>
         Exit
       </Button>
     </div>

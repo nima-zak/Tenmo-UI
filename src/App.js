@@ -37,9 +37,6 @@ function App() {
           >
             Logout
           </Button>
-          <Button color="inherit" href="/">
-            Exit
-          </Button>
         </Toolbar>
       </AppBar>
       <Container maxWidth="sm" sx={{ marginTop: "2rem" }}>
