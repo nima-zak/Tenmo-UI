@@ -1,0 +1,29 @@
+.transfer-border {
+    border-top: 2px dashed black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20%;
+    border-bottom: 2px dashed black;
+}
+
+.transfer-list {
+    /* border-bottom: 2px solid black;
+    padding-bottom: 10px; */
+}
+.request-border {
+    border-top: 2px dashed black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20%;
+    border-bottom: 2px dashed black;
+}
+
+.pending-table{
+    padding-right: 50px !important;
+}
+
+.table-border {
+    border-bottom: 2px dashed black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
